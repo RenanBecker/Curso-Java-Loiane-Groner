@@ -1,5 +1,10 @@
 # Compiled class file
 *.class
+./Curso-Java-Loiane-Groner/.settings
+./Curso-Java-Loiane-Groner/.classpath
+./Curso-Java-Loiane-Groner/.project
+
+
 
 # Log file
 *.log
