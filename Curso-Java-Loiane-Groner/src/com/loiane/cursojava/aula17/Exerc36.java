@@ -3,7 +3,7 @@ package com.loiane.cursojava.aula17;
 import java.util.Scanner;
 
 public class Exerc36 {
-    public static void main(String[] args){
+     public static void main(String[] args){
         
         Scanner ler = new Scanner(System.in);
         
