@@ -13,7 +13,7 @@ public class Exerc03 {
 	        for (int i=0; i<numeros.length; i++){
 	            for (int j=0; j<numeros[i].length; j++){
 	                
-	                System.out.println("Entre com o valor da pos [" + i + "," + j + "]");
+	                System.out.println("Entre com o valor da posição [" + i + "," + j + "]");
 	                numeros[i][j] = ler.nextInt();
 	            }
 	        }
