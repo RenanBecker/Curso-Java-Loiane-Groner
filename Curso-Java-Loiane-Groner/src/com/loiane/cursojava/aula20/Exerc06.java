@@ -6,7 +6,7 @@ public class Exerc06 {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+		Scanner ler = new Scanner(System.in);
         
         char[][] jogoVelha = new char[3][3];
         
@@ -39,7 +39,7 @@ public class Exerc06 {
             boolean linhaValida = false;
             while (!linhaValida){
                 System.out.println("Entre com a linha (1, 2 ou 3)");
-                linha = scan.nextInt();
+                linha = ler.nextInt();
                 if (linha >=1 && linha<=3){
                     linhaValida = true;
                 } else {
@@ -50,7 +50,7 @@ public class Exerc06 {
             boolean colunaValida = false;
             while (!colunaValida){
                 System.out.println("Entre com a coluna (1, 2 ou 3)");
-                coluna = scan.nextInt();
+                coluna = ler.nextInt();
                 if (coluna >=1 && coluna<=3){
                     colunaValida = true;
                 } else {
